@@ -1,0 +1,86 @@
+/* ---- Style the calendar header ---- */
+/* fix for somethemes that add margin to the end of all tables */
+.wfea-calendar table {
+   margin-bottom: 0;
+}
+
+/* add color to the top row */
+.wfea .fc-toolbar.fc-header-toolbar {
+    color: #fff;
+    background: #32AAAA;
+    margin-bottom: 0;
+    padding: 8px 8px 0px 8px;
+}
+
+/* set top font size */
+.wfea .fc-toolbar h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* ---- change the buttons ---- */
+/* remove the color */
+.wfea .fc-state-default {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* add a border */
+.wfea .fc-button-group .fc-button {
+    margin-right: 5px;
+    border: 1px solid white;
+    padding: 0.5em;
+}
+/* make them side by side */
+.wfea .fc-button-group {
+   display: flex;
+}
+/* fix for alignemnetand uppercase in some themes */
+.wfea-calendar .fc-button {
+    text-transform: uppercase;
+    padding: 0;
+}
+
+/* ---- change the days of week line --- */
+/* change color and fonts */
+.fc th {
+    background: #2e3744;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ---- style the entries ---- */
+/* set background color for the entry */
+.wfea .fc-content {
+    background-color: #fff;
+}
+
+/*  fade out past events */
+.wfea .fc-past {
+    opacity: 0.3;
+}
+
+/* if you like full titles then you can */
+.wfea .fc-title {
+    white-space: normal;
+    word-break: normal;
+}
+
+/* if you want just dots for small screens, then you can */
+@media only screen and (max-width: 1000px) {
+    .wfea .fc-day-grid-event {
+        margin: 1px 2px 0;
+        cursor: pointer;
+        width: 8px;
+        height: 8px;
+        float: left;
+        padding: 0;
+        border-radius: 50%;
+        font-size: 0;
+    }
+}
+

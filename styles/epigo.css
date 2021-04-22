@@ -1,0 +1,25 @@
+.span-card span {
+    color: #32abab;
+}
+
+
+
+.elementor-post__excerpt .bloc-grid-offre {
+
+display:flex;
+
+}
+
+.elementor-post__excerpt .bloc-grid-offre span {
+
+margin-top: auto;
+margin-bottom: auto;
+margin-right: 5xp;
+}
+
+.cas-client-grid .elementor-post__read-more {
+  color: white!important;
+  background-color: #FFC000;
+  padding: 10px 50px;
+  border-radius: 50px;
+}

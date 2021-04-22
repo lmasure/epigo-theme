@@ -1,0 +1,32 @@
+.epigo-epigo-etoile {
+  margin-right: 10px;
+  
+  font-size: 15px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+p > a {
+  color: #32abab !important;
+  text-decoration: underline !important;
+}
+
+p > a:hover {
+  color: #231d59 !important;
+}
+h1 > a {
+  color: #32abab !important;
+  text-decoration: underline !important;
+}
+
+h1 > a:hover {
+  color: #231d59 !important;
+}
+

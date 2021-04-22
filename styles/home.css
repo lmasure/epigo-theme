@@ -1,0 +1,67 @@
+
+
+/*style des cartes de la page d'accueil*/
+#home-card  {
+    
+    text-align:center;
+    padding: 20px;
+}
+#home-card img{
+    
+    width:100px;
+    margin-top: 15px;
+    
+}
+
+#home-card img:last-child{
+    
+    display: none;
+}
+#home-card:hover img:first-child{
+    display: none;
+}
+#home-card:hover img:last-child{
+    
+    display:inline-block;
+}
+/*style des separateurs verticaux pour les blocs de présentation*/
+
+.img-separator-yellow:before {
+    
+    content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url("http://loloserver.synology.me/wordpress/wp-content/uploads/2021/03/separation.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+        z-index: 1;
+}
+
+.img-separator-blue:before {
+    
+    content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url("http://loloserver.synology.me/wordpress/wp-content/uploads/2021/03/separation-bleue.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+        z-index: 1;
+}
+.text-icone ul{
+    
+    display: flex;
+}
+
+.text-icone span {
+    margin-top: 35%;
+}

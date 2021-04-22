@@ -1,25 +1,60 @@
+
+* h1 {
+  text-shadow: none!important;
+}
+
 .span-card span {
     color: #32abab;
 }
 
 
+/*bloc pour l'affichage personnalisé des offres*/
+
+/*contenu de l'article offre*/
+
+.elementor-icon-list-text .bloc-grid-offre {
+  font-weight: 800;
+}
+.elementor-icon-list-text .bloc-grid-offre span {
+  font-size: 1.5em;
+}
 
 .elementor-post__excerpt .bloc-grid-offre {
 
 display:flex;
-
+font-weight: 800;
+font-family: poppins;
 }
 
 .elementor-post__excerpt .bloc-grid-offre span {
 
 margin-top: auto;
 margin-bottom: auto;
-margin-right: 5xp;
+margin-right: 3px;
+margin-left: 5px;
+font-size: 1.8em;
+
 }
+
+
+
+/*bouton suite du cas client en mode carte*/
 
 .cas-client-grid .elementor-post__read-more {
   color: white!important;
   background-color: #FFC000;
   padding: 10px 50px;
   border-radius: 50px;
+}
+
+.cas-client-grid .elementor-post__read-more:hover {
+  background-color: #F79F05;
+  transition: all 0.3s ease-out;
+}
+
+.elementor-post__excerpt p:after{
+
+  font-weight: 400;
+  color: black;
+  content: " ... ";
 }
